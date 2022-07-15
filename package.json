@@ -1,0 +1,21 @@
+{
+  "name": "mercshowdown",
+  "version": "1.0.0",
+  "description": "Clone of HS Mercenaries PVP in browser",
+  "main": "server/main.mjs",
+  "scripts": {
+    "test": "node_modules/bin/tape test/**/*.js | tap-spec"
+  },
+  "keywords": [
+    "Phaser"
+  ],
+  "author": "arasmus8 (arasmus8@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "tap-spec": "^5.0.0",
+    "tape": "^5.5.3"
+  }
+}
